@@ -9,13 +9,13 @@
 Pod::Spec.new do |spec|
   spec.name         = "iTunesClient"
   spec.version      = "0.3.1"
-  spec.summary      = "A short description of iTunesClient."
-  spec.description  = "This is just to test private repos on cocoapods"
+  spec.summary      = "iTunesClient is a client for the itunes public api and testing private repos for work"
+  spec.description  = "iTunesClient is a client for the itunes public api. This is just to test private repos on cocoapods, and maybe migrate to it at work"
   spec.license      = "MIT"
   spec.author             = { "mustii" => "mustii@mmk.one" }
   spec.platform     = :ios, "11.0"
-
-  spec.source       = { :git => "https://github.com/mustiikhalil/iTunesClient", :tag => "0.3.1" }
+  spec.homepage = "https://github.com/mustiikhalil"
+  spec.source       = { :git => "https://github.com/mustiikhalil/iTunesClient.git", :tag => "0.3.1" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
