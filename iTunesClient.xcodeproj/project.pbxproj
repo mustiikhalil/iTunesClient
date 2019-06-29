@@ -10,6 +10,20 @@
 		8A79DEE722C7BC9D00778F85 /* iTunesClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A79DEDD22C7BC9D00778F85 /* iTunesClient.framework */; };
 		8A79DEEC22C7BC9D00778F85 /* iTunesClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEEB22C7BC9D00778F85 /* iTunesClientTests.swift */; };
 		8A79DEEE22C7BC9D00778F85 /* iTunesClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A79DEE022C7BC9D00778F85 /* iTunesClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A79DEFE22C7BCBF00778F85 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEF822C7BCBF00778F85 /* BaseOperation.swift */; };
+		8A79DEFF22C7BCBF00778F85 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEF822C7BCBF00778F85 /* BaseOperation.swift */; };
+		8A79DF0022C7BCBF00778F85 /* FetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEF922C7BCBF00778F85 /* FetchOperation.swift */; };
+		8A79DF0122C7BCBF00778F85 /* FetchOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEF922C7BCBF00778F85 /* FetchOperation.swift */; };
+		8A79DF0222C7BCBF00778F85 /* DecodeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFA22C7BCBF00778F85 /* DecodeOperation.swift */; };
+		8A79DF0322C7BCBF00778F85 /* DecodeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFA22C7BCBF00778F85 /* DecodeOperation.swift */; };
+		8A79DF0422C7BCBF00778F85 /* DelayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFB22C7BCBF00778F85 /* DelayOperation.swift */; };
+		8A79DF0522C7BCBF00778F85 /* DelayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFB22C7BCBF00778F85 /* DelayOperation.swift */; };
+		8A79DF0622C7BCBF00778F85 /* UpdateUIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFC22C7BCBF00778F85 /* UpdateUIOperation.swift */; };
+		8A79DF0722C7BCBF00778F85 /* UpdateUIOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFC22C7BCBF00778F85 /* UpdateUIOperation.swift */; };
+		8A79DF0822C7BCBF00778F85 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFD22C7BCBF00778F85 /* OperationData.swift */; };
+		8A79DF0922C7BCBF00778F85 /* OperationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DEFD22C7BCBF00778F85 /* OperationData.swift */; };
+		8A79DF0B22C7BCC900778F85 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DF0A22C7BCC900778F85 /* Client.swift */; };
+		8A79DF0C22C7BCC900778F85 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79DF0A22C7BCC900778F85 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,13 @@
 		8A79DEE622C7BC9D00778F85 /* iTunesClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A79DEEB22C7BC9D00778F85 /* iTunesClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesClientTests.swift; sourceTree = "<group>"; };
 		8A79DEED22C7BC9D00778F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A79DEF822C7BCBF00778F85 /* BaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
+		8A79DEF922C7BCBF00778F85 /* FetchOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchOperation.swift; sourceTree = "<group>"; };
+		8A79DEFA22C7BCBF00778F85 /* DecodeOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecodeOperation.swift; sourceTree = "<group>"; };
+		8A79DEFB22C7BCBF00778F85 /* DelayOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayOperation.swift; sourceTree = "<group>"; };
+		8A79DEFC22C7BCBF00778F85 /* UpdateUIOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateUIOperation.swift; sourceTree = "<group>"; };
+		8A79DEFD22C7BCBF00778F85 /* OperationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationData.swift; sourceTree = "<group>"; };
+		8A79DF0A22C7BCC900778F85 /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +92,11 @@
 		8A79DEDF22C7BC9D00778F85 /* iTunesClient */ = {
 			isa = PBXGroup;
 			children = (
+				8A79DF0D22C7BCD500778F85 /* Models */,
+				8A79DEF722C7BCA800778F85 /* Operations */,
 				8A79DEE022C7BC9D00778F85 /* iTunesClient.h */,
 				8A79DEE122C7BC9D00778F85 /* Info.plist */,
+				8A79DF0A22C7BCC900778F85 /* Client.swift */,
 			);
 			path = iTunesClient;
 			sourceTree = "<group>";
@@ -84,6 +108,26 @@
 				8A79DEED22C7BC9D00778F85 /* Info.plist */,
 			);
 			path = iTunesClientTests;
+			sourceTree = "<group>";
+		};
+		8A79DEF722C7BCA800778F85 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				8A79DEF822C7BCBF00778F85 /* BaseOperation.swift */,
+				8A79DEFA22C7BCBF00778F85 /* DecodeOperation.swift */,
+				8A79DEFB22C7BCBF00778F85 /* DelayOperation.swift */,
+				8A79DEF922C7BCBF00778F85 /* FetchOperation.swift */,
+				8A79DEFC22C7BCBF00778F85 /* UpdateUIOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		8A79DF0D22C7BCD500778F85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A79DEFD22C7BCBF00778F85 /* OperationData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +192,7 @@
 				TargetAttributes = {
 					8A79DEDC22C7BC9D00778F85 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					8A79DEE522C7BC9D00778F85 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -194,6 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A79DF0222C7BCBF00778F85 /* DecodeOperation.swift in Sources */,
+				8A79DF0B22C7BCC900778F85 /* Client.swift in Sources */,
+				8A79DF0022C7BCBF00778F85 /* FetchOperation.swift in Sources */,
+				8A79DEFE22C7BCBF00778F85 /* BaseOperation.swift in Sources */,
+				8A79DF0422C7BCBF00778F85 /* DelayOperation.swift in Sources */,
+				8A79DF0622C7BCBF00778F85 /* UpdateUIOperation.swift in Sources */,
+				8A79DF0822C7BCBF00778F85 /* OperationData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A79DF0722C7BCBF00778F85 /* UpdateUIOperation.swift in Sources */,
+				8A79DF0922C7BCBF00778F85 /* OperationData.swift in Sources */,
+				8A79DF0122C7BCBF00778F85 /* FetchOperation.swift in Sources */,
+				8A79DF0322C7BCBF00778F85 /* DecodeOperation.swift in Sources */,
+				8A79DF0522C7BCBF00778F85 /* DelayOperation.swift in Sources */,
+				8A79DEFF22C7BCBF00778F85 /* BaseOperation.swift in Sources */,
+				8A79DF0C22C7BCC900778F85 /* Client.swift in Sources */,
 				8A79DEEC22C7BC9D00778F85 /* iTunesClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +400,7 @@
 		8A79DEF222C7BC9D00778F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = space.mmk.iTunesClient;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +427,7 @@
 		8A79DEF322C7BC9D00778F85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +453,7 @@
 		8A79DEF522C7BC9D00778F85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5LE5TDLUP;
 				INFOPLIST_FILE = iTunesClientTests/Info.plist;
@@ -409,6 +472,7 @@
 		8A79DEF622C7BC9D00778F85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S5LE5TDLUP;
 				INFOPLIST_FILE = iTunesClientTests/Info.plist;
