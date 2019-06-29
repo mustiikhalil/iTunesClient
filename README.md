@@ -1,0 +1,1 @@
+This is just a test on how to create modules with private repos on cocoapods
