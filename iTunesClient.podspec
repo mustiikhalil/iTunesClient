@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "mustii" => "mustii@mmk.one" }
   spec.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/mustiikhalil/iTunesClient", :tag => "0.3.0" }
+  spec.source       = { :git => "https://github.com/mustiikhalil/iTunesClient", :tag => "0.3.0" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
