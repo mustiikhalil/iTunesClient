@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-  s.swift_version = "4.2"
+  spec.swift_version = "4.2"
 end
