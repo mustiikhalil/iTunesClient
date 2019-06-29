@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iTunesClient"
-  spec.version      = "0.2.0"
+  spec.version      = "0.3.1"
   spec.summary      = "A short description of iTunesClient."
   spec.description  = "This is just to test private repos on cocoapods"
   spec.license      = "MIT"
