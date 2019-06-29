@@ -17,4 +17,5 @@ Pod::Spec.new do |spec|
   spec.homepage = "https://github.com/mustiikhalil"
   spec.source       = { :git => "https://github.com/mustiikhalil/iTunesClient.git", :tag => "1.0.1" }
   spec.swift_version = "4.2"
+  s.source_files = 'iTunesClient/*'
 end
